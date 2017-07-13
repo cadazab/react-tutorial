@@ -1,3 +1,88 @@
+/* General Clases */
+.table {
+  position: absolute;
+  margin: 10px;
+}
+
+label{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.tableRow{
+  height: 10px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.test{
+  border: 1px solid black;
+}
+
+/* #product */
+
+.product {
+  position: relative;
+}
+
+#products {
+  width: 900px;
+  height: 500px;
+}
+
+#productVersion {
+  left: 910px;
+  width: 550px;
+  height: 245px;
+}
+
+#productFunction {
+  left: 910px;
+  top: 255px;
+  width: 550px;
+  height: 245px;
+}
+
+#productOffices {
+  top: 510px;
+  width: 284px;
+  height: 245px;
+}
+
+#productCurrencies {
+  top: 510px;
+  left: 294px;
+  width: 284px;
+  height: 245px;
+}
+
+#productOutput {
+  top: 510px;
+  left: 588px;
+  width: 284px;
+  height: 245px;
+}
+
+#productCalculations {
+  top: 510px;
+  left: 882px;
+  width: 284px;
+  height: 245px;
+}
+
+#productHprod {
+  top: 510px;
+  left: 1176px;
+  width: 284px;
+  height: 245px;
+}
+
+
+
+
+
+/* -------- */
+
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
