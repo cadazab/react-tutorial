@@ -1,78 +1,81 @@
 /* General Clases */
-.table {
+section {
   position: absolute;
-  margin: 10px;
+  border-style: solid;
+  border-width: 0.2px;
+  border-radius: 5px;
+  padding: 10px;
 }
 
-label{
-  font-size: 15px;
+.tab{
+  overflow: auto;
+  height: 1000px;
+  position: relative;
+  background-color: #A49F9E;  
+}
+
+.label{
+  font-size: 18px;
   font-weight: bold;
+  padding: 0px;
+  margin: 0px;
 }
 
-.tableRow{
-  height: 10px !important;
-  margin: 0px !important;
-  padding: 0px !important;
-}
-
-.test{
-  border: 1px solid black;
+.table{
+  margin-top: 0px !important;
 }
 
 /* #product */
 
-.product {
-  position: relative;
-}
-
 #products {
-  width: 900px;
+  float: left;
   height: 500px;
+  width: 900px;
 }
 
 #productVersion {
-  left: 910px;
+  left: 924px;
   width: 550px;
   height: 245px;
 }
 
 #productFunction {
-  left: 910px;
-  top: 255px;
+  left: 924px;
+  top: 269px;
   width: 550px;
   height: 245px;
 }
 
 #productOffices {
-  top: 510px;
+  top: 524px;
   width: 284px;
   height: 245px;
 }
 
 #productCurrencies {
-  top: 510px;
-  left: 294px;
+  top: 524px;
+  left: 308px;
   width: 284px;
   height: 245px;
 }
 
 #productOutput {
-  top: 510px;
-  left: 588px;
+  top: 524px;
+  left: 602px;
   width: 284px;
   height: 245px;
 }
 
 #productCalculations {
-  top: 510px;
-  left: 882px;
+  top: 524px;
+  left: 896px;
   width: 284px;
   height: 245px;
 }
 
 #productHprod {
-  top: 510px;
-  left: 1176px;
+  top: 524px;
+  left: 1190px;
   width: 284px;
   height: 245px;
 }
